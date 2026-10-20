@@ -21,6 +21,6 @@ public static double distance(Point a, Point b){
 public static double slope(Point a, Point b) {
  double xDiff = (a.getX()-b.getX());
  double yDiff = (a.getY()-b.getY());
- return MathTools.round((yDiff/xDiff),2);
+ return MathTools.round((yDiff/xDiff),3);
 }
 }

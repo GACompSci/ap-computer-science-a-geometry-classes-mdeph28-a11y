@@ -10,6 +10,9 @@ public class App {
         System.out.println(a.getX());
         System.out.println(MathTools.distance(a,b));
         System.out.println(MathTools.slope(a, b));
+        Circle c = new Circle(a,6);
+        System.out.println(c.getRadius());
+        System.out.println(c.getArea());
         
     }
 }
