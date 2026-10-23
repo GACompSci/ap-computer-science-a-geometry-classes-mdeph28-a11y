@@ -1,11 +1,5 @@
 public class MathTools {
-    //Create the static MathTools methods in this file
-    /*
-    randInt(int min, int max)
-round(double num, int places)
-distance(Point a, Point b)
-slope(Point a, Point b)
-volumeOfSphere(double  */
+  
 public static int randint(int min, int max){
     return (int) (Math.random()*(max-min+1))+min;
 }
